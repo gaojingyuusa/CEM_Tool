@@ -1,0 +1,45 @@
+option,group
+High income,Income
+Low income,Income
+Lower middle income,Income
+Upper middle income,Income
+"EAP, excluding high income",Region_WBG
+"ECA, excluding high income",Region_WBG
+"LAC, excluding high income",Region_WBG
+"MNA, excluding high income",Region_WBG
+"SAR, excluding high income",Region_WBG
+"SSA, excluding high income",Region_WBG
+"EAP, all",Region_Total
+"ECA, all",Region_Total
+"LAC, all",Region_Total
+"MNA, all",Region_Total
+"NAM, all",Region_Total
+"SAR, all",Region_Total
+"SSA, all",Region_Total
+BRICS,B_O_O
+OECD,B_O_O
+OPEC,B_O_O
+G20,G20
+ASEAN,Bloc
+Caribbean,Bloc
+CIS,Bloc
+ECOWAS,Bloc
+Euro Union,Bloc
+GCC,Bloc
+Pacific Islands,Bloc
+Blend,Lending
+IBRD,Lending
+IDA,Lending
+"Advanced, IMF",IMF
+"Emerging & Developing, IMF",IMF
+Low Income Developing Countries,LIDC
+Land-locked,Landlocked
+Small States,SmallStates
+Island States,IslandStates
+Fragile States,FragileStates
+EMU,HIPC
+HIPC,HIPC
+Non-HIPC,HIPC
+Oil Exporter,Oil_Trade
+Oil Importer,Oil_Trade
+Commodity Exporting Countries,Commodity

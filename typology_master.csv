@@ -1,0 +1,216 @@
+﻿name,iso3,Income,Region_WBG,Region_Total,B_O_O,G20,Bloc,Lending,IMF,LIDC,Landlocked,SmallStates,IslandStates,FragileStates,HIPC,Commodity,Oil_Trade
+Afghanistan,AFG,Low income,"SAR, excluding high income","SAR, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,Yes,HIPC,,Oil Importer
+Albania,ALB,Upper middle income,"ECA, excluding high income","ECA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Algeria,DZA,Upper middle income,"MNA, excluding high income","MNA, all",OPEC,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+American Samoa,ASM,Upper middle income,"EAP, excluding high income","EAP, all",,,,,,No,No,No,No,No,Non-HIPC,,Oil Importer
+Andorra,AND,High income,,"ECA, all",,,,,,No,Yes,No,No,No,Non-HIPC,,Oil Importer
+Angola,AGO,Upper middle income,"SSA, excluding high income","SSA, all",OPEC,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Antigua and Barbuda,ATG,High income,,"LAC, all",,,Caribbean,IBRD,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Argentina,ARG,Upper middle income,"LAC, excluding high income","LAC, all",,Yes,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Armenia,ARM,Lower middle income,"ECA, excluding high income","ECA, all",,,CIS,IBRD,"Emerging & Developing, IMF",Yes,Yes,No,No,No,Non-HIPC,Yes,Oil Importer
+Aruba,ABW,High income,,"LAC, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Australia,AUS,High income,,"EAP, all",OECD,Yes,,,"Advanced, IMF",No,No,Yes,No,No,Non-HIPC,Yes,Oil Importer
+Austria,AUT,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,Yes,No,No,No,EMU,,Oil Importer
+Azerbaijan,AZE,Upper middle income,"ECA, excluding high income","ECA, all",,,CIS,IBRD,"Emerging & Developing, IMF",No,Yes,No,No,No,Non-HIPC,Yes,Oil Exporter
+"Bahamas, The",BHS,High income,,"LAC, all",,,Caribbean,,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Bahrain,BHR,High income,,"MNA, all",,,GCC,,"Emerging & Developing, IMF",No,No,Yes,No,No,Non-HIPC,Yes,Oil Exporter
+Bangladesh,BGD,Lower middle income,"SAR, excluding high income","SAR, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Importer
+Barbados,BRB,High income,,"LAC, all",,,Caribbean,,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Belarus,BLR,Upper middle income,"ECA, excluding high income","ECA, all",,,CIS,IBRD,"Emerging & Developing, IMF",No,Yes,No,No,No,Non-HIPC,,Oil Importer
+Belgium,BEL,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Belize,BLZ,Upper middle income,"LAC, excluding high income","LAC, all",,,Caribbean,IBRD,"Emerging & Developing, IMF",No,No,No,Yes,No,Non-HIPC,Yes,Oil Importer
+Benin,BEN,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Importer
+Bermuda,BMU,High income,,"NAM, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Bhutan,BTN,Lower middle income,"SAR, excluding high income","SAR, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,Yes,No,Non-HIPC,Yes,Oil Importer
+Bolivia,BOL,Lower middle income,"LAC, excluding high income","LAC, all",,,,IBRD,"Emerging & Developing, IMF",Yes,Yes,No,No,No,HIPC,Yes,Oil Importer
+Bosnia and Herzegovina,BIH,Upper middle income,"ECA, excluding high income","ECA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Botswana,BWA,Upper middle income,"SSA, excluding high income","SSA, all",,,,IBRD,"Emerging & Developing, IMF",No,Yes,No,Yes,No,Non-HIPC,Yes,Oil Importer
+Brazil,BRA,Upper middle income,"LAC, excluding high income","LAC, all",BRICS,Yes,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Importer
+Brunei Darussalam,BRN,High income,,"EAP, all",,,ASEAN,,"Emerging & Developing, IMF",No,No,Yes,No,No,Non-HIPC,Yes,Oil Importer
+Bulgaria,BGR,Upper middle income,"ECA, excluding high income","ECA, all",,,Euro Union,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Burkina Faso,BFA,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,HIPC,Yes,Oil Importer
+Burundi,BDI,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,Yes,HIPC,Yes,Oil Importer
+Cambodia,KHM,Lower middle income,"EAP, excluding high income","EAP, all",,,ASEAN,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Importer
+Cameroon,CMR,Lower middle income,"SSA, excluding high income","SSA, all",,,,Blend,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Exporter
+Canada,CAN,High income,,"NAM, all",OECD,Yes,,,"Advanced, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Cabo Verde,CPV,Lower middle income,"SSA, excluding high income","SSA, all",,,ECOWAS,Blend,"Emerging & Developing, IMF",Yes,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Cayman Islands,CYM,High income,,"LAC, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Central African Republic,CAF,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,Yes,HIPC,Yes,Oil Importer
+Chad,TCD,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,Yes,HIPC,Yes,Oil Exporter
+Channel Islands,CHI,High income,,"ECA, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Chile,CHL,High income,,"LAC, all",OECD,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Importer
+China,CHN,Upper middle income,"EAP, excluding high income","EAP, all",BRICS,Yes,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+"Hong Kong SAR, China",HKG,High income,,"EAP, all",,,,,"Advanced, IMF",No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Colombia,COL,Upper middle income,"LAC, excluding high income","LAC, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Comoros,COM,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,Yes,Yes,Yes,HIPC,,Oil Importer
+"Congo, Dem. Rep.",COD,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,HIPC,Yes,Oil Exporter
+"Congo, Rep.",COG,Lower middle income,"SSA, excluding high income","SSA, all",,,,Blend,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Exporter
+Costa Rica,CRI,Upper middle income,"LAC, excluding high income","LAC, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Importer
+Côte d'Ivoire,CIV,Lower middle income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,HIPC,Yes,Oil Exporter
+Croatia,HRV,High income,,"ECA, all",,,Euro Union,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Cuba,CUB,Upper middle income,"LAC, excluding high income","LAC, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Curaçao,CUW,High income,,"LAC, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Cyprus,CYP,High income,,"ECA, all",,,Euro Union,,"Advanced, IMF",No,No,Yes,No,No,EMU,,Oil Importer
+Czech Republic,CZE,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,Yes,No,No,No,Non-HIPC,,Oil Importer
+Denmark,DNK,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,Non-HIPC,,Oil Exporter
+Djibouti,DJI,Lower middle income,"MNA, excluding high income","MNA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,Yes,Yes,Non-HIPC,,Oil Importer
+Dominica,DMA,Upper middle income,"LAC, excluding high income","LAC, all",,,Caribbean,Blend,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Dominican Republic,DOM,Upper middle income,"LAC, excluding high income","LAC, all",,,Caribbean,IBRD,"Emerging & Developing, IMF",No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Ecuador,ECU,Upper middle income,"LAC, excluding high income","LAC, all",OPEC,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+"Egypt, Arab Rep.",EGY,Lower middle income,"MNA, excluding high income","MNA, all",,,,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Importer
+El Salvador,SLV,Lower middle income,"LAC, excluding high income","LAC, all",,,,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Importer
+Equatorial Guinea,GNQ,Upper middle income,,"SSA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,Yes,No,Non-HIPC,Yes,Oil Exporter
+Eritrea,ERI,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,HIPC,,Oil Importer
+Estonia,EST,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Ethiopia,ETH,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,HIPC,Yes,Oil Importer
+Faeroe Islands,FRO,High income,,"ECA, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Fiji,FJI,Upper middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IBRD,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,Yes,Oil Importer
+Finland,FIN,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+France,FRA,High income,,"ECA, all",OECD,Yes,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+French Polynesia,PYF,High income,,"EAP, all",,,Pacific Islands,,,No,No,Yes,No,No,Non-HIPC,Yes,Oil Importer
+Gabon,GAB,Upper middle income,"SSA, excluding high income","SSA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,Yes,No,Non-HIPC,Yes,Oil Exporter
+"Gambia, The",GMB,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,No,No,Yes,Yes,HIPC,Yes,Oil Importer
+Georgia,GEO,Upper middle income,"ECA, excluding high income","ECA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Germany,DEU,High income,,"ECA, all",OECD,Yes,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Ghana,GHA,Lower middle income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Importer
+Greece,GRC,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Greenland,GRL,High income,,"ECA, all",,,,,,No,No,Yes,No,No,Non-HIPC,Yes,Oil Importer
+Grenada,GRD,Upper middle income,"LAC, excluding high income","LAC, all",,,Caribbean,Blend,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Guam,GUM,High income,,"EAP, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Guatemala,GTM,Lower middle income,"LAC, excluding high income","LAC, all",,,,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,Yes,Oil Importer
+Guinea,GIN,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Importer
+Guinea-Bissau,GNB,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,No,No,Yes,Yes,HIPC,Yes,Oil Importer
+Guyana,GUY,Upper middle income,"LAC, excluding high income","LAC, all",,,Caribbean,IDA,"Emerging & Developing, IMF",No,No,No,Yes,No,HIPC,Yes,Oil Importer
+Haiti,HTI,Low income,"LAC, excluding high income","LAC, all",,,Caribbean,IDA,"Emerging & Developing, IMF",Yes,No,Yes,No,Yes,HIPC,,Oil Importer
+Honduras,HND,Lower middle income,"LAC, excluding high income","LAC, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Importer
+Hungary,HUN,High income,"ECA, excluding high income","ECA, all",OECD,,Euro Union,,"Emerging & Developing, IMF",No,Yes,No,No,No,Non-HIPC,,Oil Importer
+Iceland,ISL,High income,,"ECA, all",OECD,,,,"Advanced, IMF",No,No,Yes,No,No,Non-HIPC,Yes,Oil Importer
+India,IND,Lower middle income,"SAR, excluding high income","SAR, all",BRICS,Yes,,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Importer
+Indonesia,IDN,Lower middle income,"EAP, excluding high income","EAP, all",,Yes,ASEAN,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+"Iran, Islamic Rep.",IRN,Upper middle income,"MNA, excluding high income","MNA, all",OPEC,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Iraq,IRQ,Upper middle income,"MNA, excluding high income","MNA, all",OPEC,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,Yes,Non-HIPC,Yes,Oil Exporter
+Ireland,IRL,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,Yes,No,No,EMU,,Oil Importer
+Isle of Man,IMN,High income,,"ECA, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Israel,ISR,High income,,"MNA, all",OECD,,,,"Advanced, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Italy,ITA,High income,,"ECA, all",OECD,Yes,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Jamaica,JAM,Upper middle income,"LAC, excluding high income","LAC, all",,,Caribbean,IBRD,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,Yes,Oil Importer
+Japan,JPN,High income,,"EAP, all",OECD,Yes,,,"Advanced, IMF",No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Jordan,JOR,Upper middle income,"MNA, excluding high income","MNA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Kazakhstan,KAZ,Upper middle income,"ECA, excluding high income","ECA, all",,,CIS,IBRD,"Emerging & Developing, IMF",No,Yes,No,No,No,Non-HIPC,Yes,Oil Exporter
+Kenya,KEN,Lower middle income,"SSA, excluding high income","SSA, all",,,,Blend,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,Yes,Oil Importer
+Kiribati,KIR,Lower middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IDA,"Emerging & Developing, IMF",Yes,No,Yes,Yes,Yes,Non-HIPC,,Oil Importer
+"Korea, Rep.",KOR,High income,,"EAP, all",OECD,Yes,,,"Advanced, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+"Korea, Dem. People's Rep.",PRK,Low income,"EAP, excluding high income","EAP, all",,,,,,Yes,No,No,No,No,Non-HIPC,,Oil Importer
+Kosovo,XKX,Lower middle income,"ECA, excluding high income","ECA, all",,,CIS,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,Yes,Non-HIPC,,Oil Importer
+Kuwait,KWT,High income,,"MNA, all",OPEC,,GCC,,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Kyrgyz Republic,KGZ,Lower middle income,"ECA, excluding high income","ECA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,Non-HIPC,Yes,Oil Importer
+Lao PDR,LAO,Lower middle income,"EAP, excluding high income","EAP, all",,,ASEAN,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,Non-HIPC,,Oil Importer
+Latvia,LVA,High income,,"ECA, all",,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Lebanon,LBN,Upper middle income,"MNA, excluding high income","MNA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,Yes,Non-HIPC,,Oil Importer
+Lesotho,LSO,Lower middle income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,Yes,No,Non-HIPC,,Oil Importer
+Liberia,LBR,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,HIPC,,Oil Importer
+Libya,LBY,Upper middle income,"MNA, excluding high income","MNA, all",OPEC,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,Yes,Non-HIPC,Yes,Oil Exporter
+Liechtenstein,LIE,High income,,"ECA, all",,,,,,No,Yes,No,No,No,Non-HIPC,,Oil Importer
+Lithuania,LTU,High income,,"ECA, all",,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Luxembourg,LUX,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,Yes,No,No,No,EMU,,Oil Importer
+"Macao SAR, China",MAC,High income,,"EAP, all",,,,,"Advanced, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+"Macedonia, FYR",MKD,Upper middle income,"ECA, excluding high income","ECA, all",,,,IBRD,"Emerging & Developing, IMF",No,Yes,No,No,No,Non-HIPC,,Oil Importer
+Madagascar,MDG,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,Yes,No,Yes,HIPC,Yes,Oil Importer
+Malawi,MWI,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,HIPC,Yes,Oil Importer
+Malaysia,MYS,Upper middle income,"EAP, excluding high income","EAP, all",,,ASEAN,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Maldives,MDV,Upper middle income,"SAR, excluding high income","SAR, all",,,,IDA,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Mali,MLI,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,Yes,HIPC,Yes,Oil Importer
+Malta,MLT,High income,,"MNA, all",,,Euro Union,,"Advanced, IMF",No,No,Yes,No,No,EMU,,Oil Importer
+Marshall Islands,MHL,Upper middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IDA,"Emerging & Developing, IMF",No,No,Yes,Yes,Yes,Non-HIPC,,Oil Importer
+Mauritania,MRT,Lower middle income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Importer
+Mauritius,MUS,Upper middle income,"SSA, excluding high income","SSA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Mexico,MEX,Upper middle income,"LAC, excluding high income","LAC, all",OECD,Yes,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Exporter
+"Micronesia, Fed. Sts.",FSM,Lower middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IDA,"Emerging & Developing, IMF",Yes,No,Yes,Yes,Yes,Non-HIPC,,Oil Importer
+Moldova,MDA,Lower middle income,"ECA, excluding high income","ECA, all",,,CIS,Blend,"Emerging & Developing, IMF",Yes,Yes,No,No,No,Non-HIPC,,Oil Importer
+Monaco,MCO,High income,,"ECA, all",,,,,,No,No,No,No,No,Non-HIPC,,Oil Importer
+Mongolia,MNG,Lower middle income,"EAP, excluding high income","EAP, all",,,,Blend,"Emerging & Developing, IMF",Yes,Yes,No,No,No,Non-HIPC,Yes,Oil Importer
+Montenegro,MNE,Upper middle income,"ECA, excluding high income","ECA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,Yes,No,Non-HIPC,,Oil Importer
+Morocco,MAR,Lower middle income,"MNA, excluding high income","MNA, all",,,,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Importer
+Mozambique,MOZ,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Importer
+Myanmar,MMR,Lower middle income,"EAP, excluding high income","EAP, all",,,ASEAN,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,Non-HIPC,Yes,Oil Importer
+Namibia,NAM,Upper middle income,"SSA, excluding high income","SSA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,Yes,No,Non-HIPC,Yes,Oil Importer
+Nepal,NPL,Low income,"SAR, excluding high income","SAR, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,Non-HIPC,,Oil Importer
+Netherlands,NLD,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+New Caledonia,NCL,High income,,"EAP, all",,,Pacific Islands,,,No,No,Yes,No,No,Non-HIPC,Yes,Oil Importer
+New Zealand,NZL,High income,,"EAP, all",OECD,,,,"Advanced, IMF",No,No,Yes,No,No,Non-HIPC,Yes,Oil Importer
+Nicaragua,NIC,Lower middle income,"LAC, excluding high income","LAC, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Importer
+Niger,NER,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,HIPC,Yes,Oil Importer
+Nigeria,NGA,Lower middle income,"SSA, excluding high income","SSA, all",OPEC,,,Blend,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Northern Mariana Islands,MNP,High income,,"EAP, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Norway,NOR,High income,,"ECA, all",OECD,,,,"Advanced, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Oman,OMN,High income,,"MNA, all",,,GCC,,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Pakistan,PAK,Lower middle income,"SAR, excluding high income","SAR, all",,,,Blend,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Importer
+Palau,PLW,Upper middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IBRD,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Panama,PAN,Upper middle income,"LAC, excluding high income","LAC, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Importer
+Papua New Guinea,PNG,Lower middle income,"EAP, excluding high income","EAP, all",,,,Blend,"Emerging & Developing, IMF",Yes,No,No,No,Yes,Non-HIPC,Yes,Oil Exporter
+Paraguay,PRY,Upper middle income,"LAC, excluding high income","LAC, all",,,,IBRD,"Emerging & Developing, IMF",No,Yes,No,No,No,Non-HIPC,Yes,Oil Importer
+Peru,PER,Upper middle income,"LAC, excluding high income","LAC, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Importer
+Philippines,PHL,Lower middle income,"EAP, excluding high income","EAP, all",,,ASEAN,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Importer
+Poland,POL,High income,,"ECA, all",OECD,,Euro Union,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Portugal,PRT,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Puerto Rico,PRI,High income,,"LAC, all",,,,,"Advanced, IMF",No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Qatar,QAT,High income,,"MNA, all",OPEC,,GCC,,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Importer
+Romania,ROU,Upper middle income,"ECA, excluding high income","ECA, all",,,Euro Union,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Russian Federation,RUS,Upper middle income,,"ECA, all",BRICS,Yes,CIS,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Rwanda,RWA,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,HIPC,Yes,Oil Importer
+Samoa,WSM,Lower middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IDA,"Emerging & Developing, IMF",Yes,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+San Marino,SMR,High income,,"ECA, all",,,,,"Advanced, IMF",No,Yes,No,No,No,Non-HIPC,,Oil Importer
+São Tomé and Principe,STP,Lower middle income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,Yes,Yes,No,HIPC,Yes,Oil Importer
+Saudi Arabia,SAU,High income,,"MNA, all",OPEC,Yes,GCC,,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Senegal,SEN,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Importer
+Serbia,SRB,Upper middle income,"ECA, excluding high income","ECA, all",,,,IBRD,"Emerging & Developing, IMF",No,Yes,No,No,No,Non-HIPC,,Oil Importer
+Seychelles,SYC,High income,"SSA, excluding high income","SSA, all",,,,IBRD,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+Sierra Leone,SLE,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,HIPC,Yes,Oil Importer
+Singapore,SGP,High income,,"EAP, all",,,ASEAN,,"Advanced, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Sint Maarten (Dutch part),SXM,High income,,"LAC, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Slovak Republic,SVK,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,Yes,No,No,No,EMU,,Oil Importer
+Slovenia,SVN,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Solomon Islands,SLB,Lower middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IDA,"Emerging & Developing, IMF",Yes,No,Yes,Yes,Yes,Non-HIPC,,Oil Importer
+Somalia,SOM,Low income,"SSA, excluding high income","SSA, all",,,,IDA,,Yes,No,No,No,Yes,HIPC,,Oil Importer
+South Africa,ZAF,Upper middle income,"SSA, excluding high income","SSA, all",BRICS,Yes,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Importer
+South Sudan,SSD,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,Yes,Non-HIPC,Yes,Oil Exporter
+Spain,ESP,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,EMU,,Oil Importer
+Sri Lanka,LKA,Lower middle income,"SAR, excluding high income","SAR, all",,,,IBRD,"Emerging & Developing, IMF",Yes,No,Yes,No,No,Non-HIPC,Yes,Oil Importer
+St. Kitts and Nevis,KNA,High income,,"LAC, all",,,Caribbean,IBRD,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+St. Lucia,LCA,Upper middle income,"LAC, excluding high income","LAC, all",,,Caribbean,Blend,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+St. Martin (French part),MAF,High income,,"LAC, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+St. Vincent and the Grenadines,VCT,Upper middle income,"LAC, excluding high income","LAC, all",,,Caribbean,Blend,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,Yes,Oil Importer
+Sudan,SDN,Lower middle income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,HIPC,Yes,Oil Exporter
+Suriname,SUR,Upper middle income,"LAC, excluding high income","LAC, all",,,Caribbean,IBRD,"Emerging & Developing, IMF",No,No,No,Yes,No,Non-HIPC,,Oil Importer
+Swaziland,SWZ,Lower middle income,"SSA, excluding high income","SSA, all",,,,IBRD,"Emerging & Developing, IMF",Yes,Yes,No,Yes,No,Non-HIPC,,Oil Importer
+Sweden,SWE,High income,,"ECA, all",OECD,,Euro Union,,"Advanced, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Switzerland,CHE,High income,,"ECA, all",OECD,,,,"Advanced, IMF",No,Yes,No,No,No,Non-HIPC,,Oil Importer
+Syrian Arab Republic,SYR,Lower middle income,"MNA, excluding high income","MNA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,Non-HIPC,,Oil Exporter
+"Taiwan, China",TWN,High income,,"EAP, all",,,,,"Advanced, IMF",No,No,Yes,No,No,Non-HIPC,,Oil Importer
+Tajikistan,TJK,Lower middle income,"ECA, excluding high income","ECA, all",,,CIS,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,Non-HIPC,Yes,Oil Importer
+Tanzania,TZA,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,No,HIPC,Yes,Oil Importer
+Thailand,THA,Upper middle income,"EAP, excluding high income","EAP, all",,,ASEAN,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Timor-Leste,TMP,Lower middle income,"EAP, excluding high income","EAP, all",,,,Blend,"Emerging & Developing, IMF",Yes,No,No,Yes,No,Non-HIPC,,Oil Importer
+Togo,TGO,Low income,"SSA, excluding high income","SSA, all",,,ECOWAS,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,HIPC,Yes,Oil Importer
+Tonga,TON,Lower middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IDA,"Emerging & Developing, IMF",Yes,No,Yes,Yes,No,Non-HIPC,Yes,Oil Importer
+Trinidad and Tobago,TTO,High income,,"LAC, all",,,Caribbean,IBRD,"Emerging & Developing, IMF",No,No,Yes,Yes,No,Non-HIPC,,Oil Exporter
+Tunisia,TUN,Lower middle income,"MNA, excluding high income","MNA, all",,,,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Importer
+Turkey,TUR,Upper middle income,"ECA, excluding high income","ECA, all",OECD,Yes,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Turkmenistan,TKM,Upper middle income,"ECA, excluding high income","ECA, all",,,CIS,IBRD,"Emerging & Developing, IMF",No,Yes,No,No,No,Non-HIPC,Yes,Oil Exporter
+Turks and Caicos Islands,TCA,High income,,"LAC, all",,,,,,No,No,No,No,No,Non-HIPC,,Oil Importer
+Tuvalu,TUV,Upper middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IDA,"Emerging & Developing, IMF",No,No,Yes,Yes,Yes,Non-HIPC,,Oil Importer
+Uganda,UGA,Low income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,HIPC,Yes,Oil Importer
+Ukraine,UKR,Lower middle income,"ECA, excluding high income","ECA, all",,,CIS,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,Yes,Oil Importer
+United Arab Emirates,ARE,High income,,"MNA, all",OPEC,,GCC,,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+United Kingdom,GBR,High income,,"ECA, all",OECD,Yes,Euro Union,,"Advanced, IMF",No,No,Yes,No,No,Non-HIPC,,Oil Exporter
+United States,USA,High income,,"NAM, all",OECD,Yes,,,"Advanced, IMF",No,No,No,No,No,Non-HIPC,,Oil Importer
+Uruguay,URY,High income,,"LAC, all",,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Importer
+Uzbekistan,UZB,Lower middle income,"ECA, excluding high income","ECA, all",,,CIS,Blend,"Emerging & Developing, IMF",Yes,Yes,No,No,No,Non-HIPC,,Oil Exporter
+Vanuatu,VUT,Lower middle income,"EAP, excluding high income","EAP, all",,,Pacific Islands,IDA,"Emerging & Developing, IMF",Yes,No,Yes,Yes,No,Non-HIPC,,Oil Importer
+"Venezuela, RB",VEN,Upper middle income,"LAC, excluding high income","LAC, all",OPEC,,,IBRD,"Emerging & Developing, IMF",No,No,No,No,No,Non-HIPC,Yes,Oil Exporter
+Vietnam,VNM,Lower middle income,"EAP, excluding high income","EAP, all",,,ASEAN,IBRD,"Emerging & Developing, IMF",Yes,No,No,No,No,Non-HIPC,,Oil Exporter
+Virgin Islands (U.S.),VIR,High income,,"LAC, all",,,,,,No,No,Yes,No,No,Non-HIPC,,Oil Importer
+West Bank and Gaza,PSE,Lower middle income,"MNA, excluding high income","MNA, all",,,,,,Yes,No,No,No,Yes,Non-HIPC,,Oil Importer
+"Yemen, Rep.",YEM,Lower middle income,"MNA, excluding high income","MNA, all",,,,IDA,"Emerging & Developing, IMF",Yes,No,No,No,Yes,Non-HIPC,Yes,Oil Exporter
+Zambia,ZMB,Lower middle income,"SSA, excluding high income","SSA, all",,,,IDA,"Emerging & Developing, IMF",Yes,Yes,No,No,No,HIPC,Yes,Oil Importer
+Zimbabwe,ZWE,Low income,"SSA, excluding high income","SSA, all",,,,Blend,"Emerging & Developing, IMF",Yes,Yes,No,No,Yes,Non-HIPC,Yes,Oil Importer
