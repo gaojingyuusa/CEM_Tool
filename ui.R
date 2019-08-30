@@ -61,7 +61,7 @@ fluidPage(
                  setSliderColor(c("#002244", "#009FDA"), c(1, 2)),
                  chooseSliderSkin("Nice"),
                  
-                 br(), hr(),
+              #   br(), hr(),
                  
                  img(src="CEM_logo.png", height="150",align="center"),
                  h3(strong("TARGET COUNTRY"),style="color:#002244"),
@@ -95,6 +95,11 @@ fluidPage(
     # Main Panel: Structural and Aspirational
     mainPanel(
       tabsetPanel(type="tabs",
+                  
+                  ## Instruction Page
+                  tabPanel("Introduction"),
+                  
+                  
                   ## Structural Comparators
                   tabPanel("Structural Comparators",
                         #  h3("Find Structural Comparators", style="color:#002244"),
