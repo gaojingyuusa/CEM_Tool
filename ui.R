@@ -7,6 +7,7 @@ library(tidyr)
 library(stringr)
 library(openxlsx)
 library(shinycssloaders)
+library(shinyWidgets)
 source("CEM_com_functions.R", local=F)
 source("CEM_selector_data.R", local=T)
 source("CEM_Master.R", local=T)
@@ -27,7 +28,19 @@ fluidPage(
                     .box-body {
                     padding-bottom: 2px;
                     }
-                    "
+                    ",
+                    
+                    ".irs-bar {",
+                    "  border-color: transparent;",
+                    "  background-color: transparent;",
+                    "}",
+                    ".irs-bar-edge {",
+                    "  border-color: transparent;",
+                    "  background-color: transparent;",
+                    "}"
+                    
+                    
+                    
                    )
               )
            ),
@@ -36,7 +49,7 @@ fluidPage(
   titlePanel(
     fluidRow(
           column(9,
-                 p(strong("CEM 2.0: Create Your CEM Data Table"), style="color:#009FDA"))             
+                 p(strong("CEM 2.0: Begin Your Country Scan"), style="color:#009FDA"))             
             )  
             ),
   
@@ -45,12 +58,17 @@ fluidPage(
     
     # Customization Pane
     sidebarPanel(id="sidebar",
-                 img(src="wbg_efi.png", height = 50),
+                 setSliderColor(c("#002244", "#009FDA"), c(1, 2)),
+                 chooseSliderSkin("Nice"),
+                 
+                 br(), hr(),
+                 
+                 img(src="CEM_logo.png", height="150",align="center"),
                  h3(strong("TARGET COUNTRY"),style="color:#002244"),
                  selectInput("TARGET","STEP 1 Select Target Country",
                              choices=country,"Albania", multiple = F),
                  h4(""),
-                 sliderInput("YEAR","STEP 2 Select Period", min=1960, max=2018,value=c(2012,2017)),
+                 sliderInput("YEAR","STEP 2 Select Period", min=1960, max=2018,value=c(2012,2017),sep=""),
                  h4(""),
             #     h5(strong("Profile")),
                  h4(textOutput("country"),style="color:#009FDA"),
@@ -60,13 +78,14 @@ fluidPage(
                  textOutput("country.small"),
                  textOutput("country.fcs"),
                  h3(strong("STRUCTURAL BREAK"),style="color:#009FDA"),
-                 sliderInput("YEAR2","Structural Break Period", min=1981, max=2017,value=c(1981,2017)),
+                 sliderInput("YEAR2","Structural Break Period", min=1981, max=2017,value=c(1981,2017),sep=""),
                  h4(" "),
                  h5(textOutput("break_point_txt"), style="color:#009FDA"),
           #       tableOutput("break_point"),
                 # tableOutput("break_data"),
                  h4(" "),
-                 withSpinner(plotOutput("break_plot",height="200px"),color="#009FDA")
+                 withSpinner(plotOutput("break_plot",height="200px"),color="#009FDA"),
+                 img(src="wbg_efi.png", height="50")
                 # checkboxInput("REGION", "Regional Peers", value=FALSE),
                 # checkboxInput("LAND", "Landlocked", value=FALSE),
                 # checkboxInput("SMALL", "Small States", value=FALSE),

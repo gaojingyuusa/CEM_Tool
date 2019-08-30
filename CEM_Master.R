@@ -39,11 +39,11 @@ normal_dt <- subset(master_file, !(Source %in% src) & !(Indicator %in% indc))
 fixed_dt <- subset(master_file, 
                    # WMS = 2014
                    (Source == "WMS" & Year == 2014)|
-                   (Source == "HCI" & Year == 2019)|
+                   (Source == "HCI" & Year == 2017)|
                    (Source == "BL" & Year == 2010)|
-                   (Source == "EIU" & Year == 2018)|
-                   (Source == "GFIN" & Year == 2017)|
-                   (Indicator %in% c("HK_5","HK_6") & Year == 2017)
+                   (Source == "EIU" & Year == 2019)|
+                   (Source == "GFIN" & Year == 2017)#|
+                  # (Indicator %in% c("HK_5","HK_6") & Year == 2017)
                    )
 
 
@@ -52,8 +52,8 @@ end_dt <- subset(master_file, Source %in% c("DB","CPI") | Indicator %in% c("FIN_
 
 # Latest year available
 last_dt <- subset(master_file,
-                  Source %in% c("GSMA","BTI") |
-                  Indicator %in% c("INV_4", "INV_5", "INV_6", "ICT_5", "ICT_6", "ICT_7", "ICT_8", "ICT_9", "ICT_13", "ICT_5", "CMP_4", "CMP_5", "CMP_6")
+                  Source %in% c("GSMA","BTI", "WEF") |
+                  Indicator %in% c("ICT_8")
                   ) %>%
                   group_by(Indicator, ISO) %>%
                   mutate(max.year = max(as.numeric(Year))) %>% filter(Year == max.year) %>% select(-max.year) %>% as.data.frame()
@@ -75,26 +75,6 @@ target_dt <- subset(master_file, ISO == "CHN" & Indicator %in% c("FDI_1","FDI_2"
 
 
 
-
-
-
-
-
-#chn_gtg <- subset(gtg_hp, ISO == "AFG" & Year <=2002) %>% na.omit()
-#chn_ts <- ts(chn_gtg$value, start=c(min(chn_gtg$Year)), end=c(max(chn_gtg$Year)),frequency = 1)
-
-
-#opar <- par(no.readonly=TRUE)
-#chn.hp <- hpfilter(chn_ts, type="lambda", freq=6.25)
-
-#chn_gtg$Trend <- as.vector(chn.hp$trend)
-#names(chn_gtg)[ncol(chn_gtg)] <- "GTG_WDI_Trend"
-#names(chn_gtg)[ncol(chn_gtg)-1] <- "GTG_WDI"
-#chn_gtg <- subset(chn_gtg,select=c("ISO","Year","GTG_WDI_Trend","GTG_WDI")) %>% gather(Indicator, value, GTG_WDI:GTG_WDI_Trend)
-#chn_gtg$ISO <- paste0(chn_gtg$ISO,"_Target")
-#names(chn_gtg)[1] <- "identifier"
-
-#plot(chn.hp)
 
 
 
