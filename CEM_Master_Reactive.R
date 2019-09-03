@@ -175,6 +175,27 @@ full <- full[c("Indicator","Year",
 #check <- rbind(normal_inv, normal_typ, fixed_inv, fixed_typ, end_inv, end_typ, last_inv, last_typ)
 #check[check$Indicator=="CMP_4",]
 #rbind(normal_inv, normal_typ, fixed_inv, fixed_typ, end_inv, end_typ, last_inv, last_typ, chn_gtg)
+
+# Add additional columns that highlight year identifiers for certain variables
+# Total start
+full$TT_START[1] <- as.numeric(input$TT_ST)
+# Total end
+full$TT_END[1] <- as.numeric(input$TT_ED)
+# Historical end
+full$HS_END[1] <- as.numeric(input$HS_ED)
+# Recent start
+full$RS_START[1] <- as.numeric(input$RS_ST)
+
+# ES: Enterprise Survey latest year for target country
+full$ES_LAST <- max(normal_dt[normal_dt$Source=="ES" & normal_dt$ISO==iso_code(input$TARGET),"Year"])
+
+# WEF: World Economic Forum latest year for target country
+full$WEF_LAST <- max(last_dt[last_dt$Source=="WEF" & last_dt$ISO==iso_code(input$TARGET),"Year"])
+
+# DB: Doing Business Indicators latest year(end year for target country)
+full$DB_LAST <- max(end_dt[end_dt$Source=="DB" & end_dt$ISO==iso_code(input$TARGET),"Year"])
+
+
 full
 })
 
