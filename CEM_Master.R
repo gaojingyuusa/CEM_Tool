@@ -28,7 +28,7 @@ indc <- c(# "HK_5","HK_6","ICT_5", THESE ARE WEF
  #         "INV_5","INV_6","INV_8",
           "ICT_8",
  #         "CMP_4","CMP_5","CMP_6",
-          "FIN_58", "FIN_59","FIN_60","FIN_61","FIN_62", 
+ #          "FIN_58", "FIN_59","FIN_60","FIN_61","FIN_62", 
           "GTG_WDI",
           "FDI_1","FDI_2","FDI_3","FDI_4","FDI_5","FDI_6","FDI_7","FDI_8","FDI_12")
 
@@ -50,7 +50,7 @@ fixed_dt <- subset(master_file,
 
 
 # End year data subset: where indicators for the end year selected are needed
-end_dt <- subset(master_file, Source %in% c("DB","CPI") | Indicator %in% c("FIN_58","FIN_59","FIN_60","FIN_61","FIN_62"))
+end_dt <- subset(master_file, Source %in% c("DB","CPI")) #| Indicator %in% c("FIN_58","FIN_59","FIN_60","FIN_61","FIN_62"))
 
 # Latest year available
 last_dt <- subset(master_file,

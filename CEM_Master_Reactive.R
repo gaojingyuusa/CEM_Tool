@@ -155,20 +155,20 @@ target_dt <- subset(master_file, ISO == basis_inv$isocode[1] & Year>=input$TT_ST
 
 ## Append individual and typology
 # From long to wide with column names stored
-full <- rbind(normal_inv, normal_typ, fixed_inv, fixed_typ, end_inv, end_typ, last_inv, last_typ, chn_gtg, target_dt)  %>% spread(identifier, value)
+full <- rbind(normal_inv, normal_typ, fixed_inv, fixed_typ, end_inv, end_typ, last_inv, last_typ, chn_gtg, target_dt) # %>% spread(identifier, value)
 # Reorder the name in the following order: Target, Struc1, Struc2, Struc3, Aspr1, Aspr2, Aspr3, Typo1, Typo2, Typo3
-ordername <- names(full)
-full <- full[c("Indicator","Year",
-               ordername[grep("Target",ordername)],
-               ordername[grep("Struc_1",ordername)],
-               ordername[grep("Struc_2",ordername)],
-               ordername[grep("Struc_3",ordername)],
-               ordername[grep("Apsr_1",ordername)],
-               ordername[grep("Apsr_2",ordername)],
-               ordername[grep("Apsr_3",ordername)],
-               ordername[grep(basis_typ[1],ordername)],
-               ordername[grep(basis_typ[2],ordername)],
-               ordername[grep(basis_typ[3],ordername)])]
+#ordername <- names(full)
+#full <- full[c("Indicator","Year",
+#               ordername[grep("Target",ordername)],
+#               ordername[grep("Struc_1",ordername)],
+#               ordername[grep("Struc_2",ordername)],
+#               ordername[grep("Struc_3",ordername)],
+#               ordername[grep("Apsr_1",ordername)],
+#               ordername[grep("Apsr_2",ordername)],
+#               ordername[grep("Apsr_3",ordername)],
+#               ordername[grep(basis_typ[1],ordername)],
+#               ordername[grep(basis_typ[2],ordername)],
+#               ordername[grep(basis_typ[3],ordername)])]
 
 
 ## Output the table of normal data
@@ -197,7 +197,7 @@ full$DB_LAST <- max(end_dt[end_dt$Source=="DB" & end_dt$ISO==iso_code(input$TARG
 
 
 full
-#full[duplicated(full, by=c("Indicator","Year","identifier")),]
+full[duplicated(full, by=c("Indicator","Year","identifier")),]
 })
 
 
