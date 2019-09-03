@@ -22,12 +22,14 @@ master_file <- rbind(master_file, macro)
 
 
 # Abnormal data filter
-src <- c("WMS","HCI","GSMA","BTI","EIU","DB","CPI","GFIN","BL")
-indc <- c("HK_5","HK_6","ICT_5",
-          "ICT_6","ICT_7","ICT_8","ICT_9","ICT_13","ICT_10","ICT_11","ICT_12","INV_4",
-          "INV_5","INV_6","INV_8",
-          "CMP_4","CMP_5","CMP_6",
-          "FIN_58", "FIN_59","FIN_60","FIN_61","FIN_62", "FDI_12","GTG_WDI",
+src <- c("WMS","HCI","GSMA","BTI","EIU","DB","CPI","GFIN","BL","WEF")
+indc <- c(# "HK_5","HK_6","ICT_5", THESE ARE WEF
+ #         "ICT_6","ICT_7","ICT_8","ICT_9","ICT_13","ICT_10","ICT_11","ICT_12","INV_4",
+ #         "INV_5","INV_6","INV_8",
+          "ICT_8",
+ #         "CMP_4","CMP_5","CMP_6",
+          "FIN_58", "FIN_59","FIN_60","FIN_61","FIN_62", 
+          "GTG_WDI",
           "FDI_1","FDI_2","FDI_3","FDI_4","FDI_5","FDI_6","FDI_7","FDI_8","FDI_12")
 
 # Normal data subset

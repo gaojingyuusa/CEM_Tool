@@ -599,8 +599,8 @@ fluidPage(
                  h4(" "),
                  h5("You are almost done! Click the following blue button to download data table that will be equipped to your CEM 2.0 Excel tool. It might take a few seconds."),
                  downloadButton("DOWNLOAD_CEM","Download CEM Data Input", class="butt1",
-                                tags$head(tags$style(".butt1{background-color:#002244;} .butt1{color: white; }")))
-               #  tableOutput("normal_result")
+                                tags$head(tags$style(".butt1{background-color:#002244;} .butt1{color: white; }"))),
+                 tableOutput("normal_result")
                  
                  
         
