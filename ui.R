@@ -49,15 +49,20 @@ fluidPage(
   titlePanel(
     fluidRow(
       
-          column(3,
-                 img(src="CEM_logo.png", height="150",align="center")
-                 ),
-          
-          column(9,
+          column(6,
                  h1(" "),
                  img(src="wbg_efi.png", height="100")
                  
-                 )             
+                 ),
+          
+          column(3,
+                 img(src="CEM_logo.png", height="150",align="center")
+                ),
+          
+          column(3,
+                h4(" ")
+          )
+          
             )  
             ),
   
@@ -114,7 +119,7 @@ fluidPage(
                       
                            h5(strong("INSTRUCTION")),
                       #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
-                           h5("Pick a target country from the dropdown list as your country to analyse. ", style="color:#009FDA"),
+                           h5("Select your target country from the drop-down menu", style="color:#009FDA"),
                       
                       
                       
@@ -136,7 +141,7 @@ fluidPage(
                            
                            h5(strong("INSTRUCTION")),
                            #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
-                           h5("Step 2A is to determine period to select your structural and aspirational comparators in STEP 3 and STEP 4. Step 2B is to determine structural break year given your input period of time.", style="color:#009FDA"),
+                           h5("In Step 2A, you should select the period you would like to use for the structural and aspirational comparator analysis in STEP 3 and STEP 4. For Step 2B, you may drag your start and end year selections and the tool will conduct the structural break test for the selection. ", style="color:#009FDA"),
                            
               
                            
@@ -162,7 +167,7 @@ fluidPage(
                         #   h3(textOutput("country.txt"), style="color:#009FDA"),
                          h5(strong("INSTRUCTION")),
                         #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
-                         h5("Structural comparators are the peer countries that are most similar to your target country in terms of selected indicators. Here the similarity is measured by how close other countries are to the target countries based on their relative global ranking of each indicator. You can pick up to three structural indicators to select your structural peer countries.", style="color:#009FDA"),
+                         h5("Structural comparators are peer countries that are most similar to your target country in terms of selected indicators. The level of similarity is measured by distance, i.e. how close your target country is to all other countries based on each country’s relative global ranking of a selected indicator. You can pick up to 6 structural indicators to select your structural peer countries.", style="color:#009FDA"),
                          h5(strong("Select Structural Indicators (up to 6)")),
                       # Title of indicator selections
                          fluidRow(
@@ -380,7 +385,7 @@ fluidPage(
              #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
              
              h5(strong("INSTRUCTION")),
-             h5("After you have selected your structural indicators, pick an aspirational indicator where you would like other countries that have better performance than your target countries. You can define performance either measured by higher global ranking or better actual value.", style="color:#009FDA"),
+             h5("After selecting your structural indicators, pick an aspirational indicator where your target country aspirates to improve its performance. You can define the performance level as measured either by higher global ranking or actual value, relative to all other countries in the world.", style="color:#009FDA"),
     
              h5(strong("Select Aspirational Indicator"),style="margin-bottom:10px"),
              # Title of indicator selections
@@ -530,45 +535,45 @@ fluidPage(
                  
                  h5(strong("INSTRUCTION")),
                  #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
-                 h5("Select your period analysis, including total period, historical period and recent period. Next step is to finalize your list of comparators that are going to be output in your CEM data table. This should include 3 structural peers, 3 aspirational peers, and 3 group typologies that are commonly used in WBG.", style="color:#009FDA"),
+                 h5("On this page you input your final selections and download your CEM 2.0 Data Input. First, recalling your results from Step 2, select your total period of analysis, which should include a historical period and a recent period. Next, select your list of comparators. This includes six individual peer countries (we recommend 3 structural and 3 aspirational peers) and 3 comparator groups.", style="color:#009FDA"),
                  
                  
                  h4("Period of Analysis",style="color:#009FDA"),
                  # Period selection
                  fluidRow(
+           #        column(3,
+          #               h4("Total Period")
+         #                ),
                    column(3,
-                         h4("Total Period")
+                          selectInput("TT_ST","Total Period Start", choices=c(1980:2014), 2000)
                          ),
                    column(3,
-                          selectInput("TT_ST",NULL, choices=c(1980:2014), 2000)
-                         ),
-                   column(3,
-                          selectInput("TT_ED",NULL, choices=c(1980:2018), NULL)
+                          selectInput("TT_ED","Total Period End", choices=c(1980:2018), NULL)
                          )
                          ),
                  
                  fluidRow(
+             #      column(3,
+            #              h4("Historical Period")
+             #      ),
                    column(3,
-                          h4("Historical Period")
-                   ),
-                   column(3,
-                         selectInput("HS_ST",NULL, choices=(1980:2018), NULL)
+                         selectInput("HS_ST","Historical Period Start", choices=(1980:2018), NULL)
                         #  p(textOutput("his_start"),style="padding-left:50px")
                    ),
                    column(3,
-                          selectInput("HS_ED",NULL, choices=c(1980:2018), NULL)
+                          selectInput("HS_ED","Historical Period End", choices=c(1980:2018), NULL)
                    )
                  ),
                  
                  fluidRow(
+              #     column(3,
+               #           h4("Recent Period")
+                #   ),
                    column(3,
-                          h4("Recent Period")
+                          selectInput("RS_ST","Recent Period Start", choices=c(1980:2018), NULL)
                    ),
                    column(3,
-                          selectInput("RS_ST",NULL, choices=c(1980:2018), NULL)
-                   ),
-                   column(3,
-                          selectInput("RS_ED",NULL, choices=c(1980:2018), NULL)
+                          selectInput("RS_ED","Recent Period End", choices=c(1980:2018), NULL)
                       #    textOutput("recent_end")
                    )
                  ),
