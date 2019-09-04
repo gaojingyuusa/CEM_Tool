@@ -18,7 +18,7 @@ fluidPage(
   tags$head(
     tags$style(HTML(
                     "
-                    #sidebar  {background-color: white;}
+                    #navbar  {background-color: white;}
                     ",
                     
                     "
@@ -38,7 +38,7 @@ fluidPage(
                     "  border-color: transparent;",
                     "  background-color: transparent;",
                     "}"
-                    
+            
                     
                     
                    )
@@ -48,8 +48,16 @@ fluidPage(
   # Maintitle
   titlePanel(
     fluidRow(
+      
+          column(3,
+                 img(src="CEM_logo.png", height="150",align="center")
+                 ),
+          
           column(9,
-                 p(strong("CEM 2.0: Begin Your Country Scan"), style="color:#009FDA"))             
+                 h1(" "),
+                 img(src="wbg_efi.png", height="100")
+                 
+                 )             
             )  
             ),
   
@@ -92,21 +100,29 @@ fluidPage(
     # Main Panel: Structural and Aspirational
  #   mainPanel(
       navlistPanel(#type="tabs",
-                #  img(src="CEM_logo.png", height="150",align="center"),
+                  well=F,
+    
                   ## Instruction Page
                   tabPanel("Introduction"),
-                  
                   tabPanel("STEP 1: Target Country",
                            
                            setSliderColor(c("#002244", "#009FDA"), c(1, 2)),
                            chooseSliderSkin("Nice"),
                            
                           
-                           h3(strong("TARGET COUNTRY"),style="color:#002244"),
-                           selectInput("TARGET","STEP 1 Select Target Country",
+                      #     h3(strong("TARGET COUNTRY"),style="color:#002244"),
+                      
+                           h5(strong("INSTRUCTION")),
+                      #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
+                           h5("Pick a target country from the dropdown list as your country to analyse. ", style="color:#009FDA"),
+                      
+                      
+                      
+                      
+                           selectInput("TARGET","Select Target Country",
                                        choices=country,"Albania", multiple = F),
                            h4(""),
-                           h5(strong("Profile")),
+                           h5(strong("Basic Information")),
                            h4(textOutput("country"),style="color:#009FDA"),
                            textOutput("country.region.txt"),
                            textOutput("country.income"),
@@ -117,10 +133,18 @@ fluidPage(
                            ),
                   
                   tabPanel("STEP 2: Select Period",
-                           sliderInput("YEAR","STEP 2 Select Period", min=1960, max=2018,value=c(2012,2017),sep=""),
                            
-                           h3(strong("STRUCTURAL BREAK"),style="color:#009FDA"),
-                           sliderInput("YEAR2","Structural Break Period", min=1981, max=2017,value=c(1981,2017),sep=""),
+                           h5(strong("INSTRUCTION")),
+                           #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
+                           h5("Step 2A is to determine period to select your structural and aspirational comparators in STEP 3 and STEP 4. Step 2B is to determine structural break year given your input period of time.", style="color:#009FDA"),
+                           
+              
+                           
+                           sliderInput("YEAR","STEP 2A: Select Period", min=1960, max=2018,value=c(2012,2017),sep=""),
+    
+                           h4(" "),        
+                      #     h3(strong("STRUCTURAL BREAK"),style="color:#009FDA"),
+                           sliderInput("YEAR2","STEP 2B: Structural Break", min=1981, max=2017,value=c(1981,2017),sep=""),
                            h4(" "),
                            h5(textOutput("break_point_txt"), style="color:#009FDA"),
                            h4(" "),
@@ -139,7 +163,7 @@ fluidPage(
                          h5(strong("INSTRUCTION")),
                         #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
                          h5("Structural comparators are the peer countries that are most similar to your target country in terms of selected indicators. Here the similarity is measured by how close other countries are to the target countries based on their relative global ranking of each indicator. You can pick up to three structural indicators to select your structural peer countries.", style="color:#009FDA"),
-                         h5(strong("STEP 3 Select Structural Indicators")),
+                         h5(strong("Select Structural Indicators (up to 6)")),
                       # Title of indicator selections
                          fluidRow(
                            column(4,
@@ -358,7 +382,7 @@ fluidPage(
              h5(strong("INSTRUCTION")),
              h5("After you have selected your structural indicators, pick an aspirational indicator where you would like other countries that have better performance than your target countries. You can define performance either measured by higher global ranking or better actual value.", style="color:#009FDA"),
     
-             h5(strong("STEP 4 Select Aspirational Indicator"),style="margin-bottom:10px"),
+             h5(strong("Select Aspirational Indicator"),style="margin-bottom:10px"),
              # Title of indicator selections
              fluidRow(
                column(4,
@@ -411,7 +435,7 @@ fluidPage(
                
                # determine by rank or by value
                h4("  "),
-               h5(strong("STEP 5 Lower and Upper Bound"),style="margin-bottom:0px"),
+               h5(strong("Lower and Upper Bound"),style="margin-bottom:0px"),
     
                # set the lower and upper bound numeric input
                fluidRow(
@@ -457,7 +481,7 @@ fluidPage(
                        ),
               
               h3("      "),
-              radioButtons("RANKVALUE","STEP 6: Select Criteria", choices=c("By Rank"="rank","By Value"="value"), inline=T, selected="rank"),
+              radioButtons("RANKVALUE","Select Criteria", choices=c("By Rank"="rank","By Value"="value"), inline=T, selected="rank"),
               h3("      "), 
       # results and data tabs for aspirational comparators
       tabsetPanel(type="tabs",
@@ -502,7 +526,7 @@ fluidPage(
              
                  ),
       
-        tabPanel("STEP 5: CEM 2.0 Input",
+        tabPanel("STEP 5: Finalize CEM Input",
                  
                  h5(strong("INSTRUCTION")),
                  #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
