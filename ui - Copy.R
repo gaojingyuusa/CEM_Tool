@@ -54,86 +54,54 @@ fluidPage(
             ),
   
   # Sidebar   
- # sidebarLayout(
+  sidebarLayout(
     
     # Customization Pane
-  #  sidebarPanel(id="sidebar",
-          #       setSliderColor(c("#002244", "#009FDA"), c(1, 2)),
-         #        chooseSliderSkin("Nice"),
-              #   img(src="CEM_logo.png", height="150",align="center"),
-              #   h3(strong("TARGET COUNTRY"),style="color:#002244"),
-              #   selectInput("TARGET","STEP 1 Select Target Country",
-              #               choices=country,"Albania", multiple = F),
-              #   h4(""),
-             #    sliderInput("YEAR","STEP 2 Select Period", min=1960, max=2018,value=c(2012,2017),sep=""),
-             #    h4(""),
+    sidebarPanel(id="sidebar",
+                 setSliderColor(c("#002244", "#009FDA"), c(1, 2)),
+                 chooseSliderSkin("Nice"),
+                 
+              #   br(), hr(),
+                 
+                 img(src="CEM_logo.png", height="150",align="center"),
+                 h3(strong("TARGET COUNTRY"),style="color:#002244"),
+                 selectInput("TARGET","STEP 1 Select Target Country",
+                             choices=country,"Albania", multiple = F),
+                 h4(""),
+                 sliderInput("YEAR","STEP 2 Select Period", min=1960, max=2018,value=c(2012,2017),sep=""),
+                 h4(""),
             #     h5(strong("Profile")),
-            #     h4(textOutput("country"),style="color:#009FDA"),
-            #     textOutput("country.region.txt"),
-            #     textOutput("country.income"),
-            #     textOutput("country.land"),
-            #     textOutput("country.small"),
-            #     textOutput("country.fcs"),
-            #     h3(strong("STRUCTURAL BREAK"),style="color:#009FDA"),
-            #     sliderInput("YEAR2","Structural Break Period", min=1981, max=2017,value=c(1981,2017),sep=""),
-            #     h4(" "),
-            #     h5(textOutput("break_point_txt"), style="color:#009FDA"),
+                 h4(textOutput("country"),style="color:#009FDA"),
+                 textOutput("country.region.txt"),
+                 textOutput("country.income"),
+                 textOutput("country.land"),
+                 textOutput("country.small"),
+                 textOutput("country.fcs"),
+                 h3(strong("STRUCTURAL BREAK"),style="color:#009FDA"),
+                 sliderInput("YEAR2","Structural Break Period", min=1981, max=2017,value=c(1981,2017),sep=""),
+                 h4(" "),
+                 h5(textOutput("break_point_txt"), style="color:#009FDA"),
           #       tableOutput("break_point"),
                 # tableOutput("break_data"),
-            #     h4(" "),
-            #     withSpinner(plotOutput("break_plot",height="200px"),color="#009FDA"),
-            #     img(src="wbg_efi.png", height="50")
+                 h4(" "),
+                 withSpinner(plotOutput("break_plot",height="200px"),color="#009FDA"),
+                 img(src="wbg_efi.png", height="50")
                 # checkboxInput("REGION", "Regional Peers", value=FALSE),
                 # checkboxInput("LAND", "Landlocked", value=FALSE),
                 # checkboxInput("SMALL", "Small States", value=FALSE),
                 # checkboxInput("FCS", "Fragile & Conflicted States", value=FALSE)
-       #         ),
+                ),
     
     # Main Panel: Structural and Aspirational
- #   mainPanel(
-      navlistPanel(#type="tabs",
-                #  img(src="CEM_logo.png", height="150",align="center"),
+    mainPanel(
+      tabsetPanel(type="tabs",
+                  
                   ## Instruction Page
                   tabPanel("Introduction"),
                   
-                  tabPanel("STEP 1: Target Country",
-                           
-                           setSliderColor(c("#002244", "#009FDA"), c(1, 2)),
-                           chooseSliderSkin("Nice"),
-                           
-                          
-                           h3(strong("TARGET COUNTRY"),style="color:#002244"),
-                           selectInput("TARGET","STEP 1 Select Target Country",
-                                       choices=country,"Albania", multiple = F),
-                           h4(""),
-                           h5(strong("Profile")),
-                           h4(textOutput("country"),style="color:#009FDA"),
-                           textOutput("country.region.txt"),
-                           textOutput("country.income"),
-                           textOutput("country.land"),
-                           textOutput("country.small"),
-                           textOutput("country.fcs")
-                           
-                           ),
-                  
-                  tabPanel("STEP 2: Select Period",
-                           sliderInput("YEAR","STEP 2 Select Period", min=1960, max=2018,value=c(2012,2017),sep=""),
-                           
-                           h3(strong("STRUCTURAL BREAK"),style="color:#009FDA"),
-                           sliderInput("YEAR2","Structural Break Period", min=1981, max=2017,value=c(1981,2017),sep=""),
-                           h4(" "),
-                           h5(textOutput("break_point_txt"), style="color:#009FDA"),
-                           h4(" "),
-                           withSpinner(plotOutput("break_plot",height="200px"),color="#009FDA"),
-                           img(src="wbg_efi.png", height="50")
-                         
-                           
-                  ),
-                  
-                  
                   
                   ## Structural Comparators
-                  tabPanel("STEP 3: Structural Comparators",
+                  tabPanel("Structural Comparators",
                         #  h3("Find Structural Comparators", style="color:#002244"),
                         #   h3(textOutput("country.txt"), style="color:#009FDA"),
                          h5(strong("INSTRUCTION")),
@@ -349,7 +317,7 @@ fluidPage(
                           ),
           
           
-         tabPanel("STEP 4: Aspirational Comparators",
+         tabPanel("Aspirational Comparators",
              
              #  h3("Find Aspiratio Comparators", style="color:#002244"),
     #         h3(textOutput("country.txt"), style="color:#009FDA"),
@@ -502,7 +470,7 @@ fluidPage(
              
                  ),
       
-        tabPanel("STEP 5: CEM 2.0 Input",
+        tabPanel("CEM 2.0 Input",
                  
                  h5(strong("INSTRUCTION")),
                  #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
@@ -645,8 +613,8 @@ fluidPage(
     
     
                  )
-          #   )
-          #     )
+             )
+               )
   
 
   
