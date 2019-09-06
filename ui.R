@@ -109,7 +109,7 @@ fluidPage(
     
                   ## Instruction Page
                   tabPanel("Introduction"),
-                  tabPanel("STEP 1: Target Country",
+                  tabPanel("Target Country",
                            
                            setSliderColor(c("#002244", "#009FDA"), c(1, 2)),
                            chooseSliderSkin("Nice"),
@@ -137,24 +137,24 @@ fluidPage(
                            
                            ),
                   
-                  tabPanel("STEP 2: Select Period",
+                  tabPanel("Question A: Structural Break",
                            
                            h5(strong("INSTRUCTION")),
                            #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
-                           h5("In Step 2A, you should select the period you would like to use for the structural and aspirational comparator analysis in STEP 3 and STEP 4. For Step 2B, you may drag your start and end year selections and the tool will conduct the structural break test for the selection. ", style="color:#009FDA"),
+                           h5("Question A is to analyze if there are any sturctural breaks in GDP growth during a period of time.", style="color:#009FDA"),
                            
               
                            
-                           sliderInput("YEAR","STEP 2A: Select Period", min=1960, max=2018,value=c(2012,2017),sep=""),
+            
     
                            h4(" "),        
                       #     h3(strong("STRUCTURAL BREAK"),style="color:#009FDA"),
-                           sliderInput("YEAR2","STEP 2B: Structural Break", min=1981, max=2017,value=c(1981,2017),sep=""),
+                           sliderInput("YEAR2","Select Period", min=1981, max=2017,value=c(1981,2017),sep=""),
                            h4(" "),
                            h5(textOutput("break_point_txt"), style="color:#009FDA"),
                            h4(" "),
-                           withSpinner(plotOutput("break_plot",height="200px"),color="#009FDA"),
-                           img(src="wbg_efi.png", height="50")
+                           withSpinner(plotOutput("break_plot",height="200px"),color="#009FDA")
+                       #    img(src="wbg_efi.png", height="50")
                          
                            
                   ),
@@ -162,13 +162,19 @@ fluidPage(
                   
                   
                   ## Structural Comparators
-                  tabPanel("STEP 3: Structural Comparators",
+           #       "Question B: Comparators",
+                  tabPanel("Question B: Structural Comparators",
                         #  h3("Find Structural Comparators", style="color:#002244"),
                         #   h3(textOutput("country.txt"), style="color:#009FDA"),
                          h5(strong("INSTRUCTION")),
                         #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
                          h5("Structural comparators are peer countries that are most similar to your target country in terms of selected indicators. The level of similarity is measured by distance, i.e. how close your target country is to all other countries based on each country’s relative global ranking of a selected indicator. You can pick up to 6 structural indicators to select your structural peer countries.", style="color:#009FDA"),
-                         h5(strong("Select Structural Indicators (up to 6)")),
+                         
+                        sliderInput("YEAR","Select Period for Comparators", min=1960, max=2018,value=c(2012,2017),sep=""),
+                        
+                        h5("Note: The select period will apply to the aspirational indicator in the next step as well.", style="color:grey"),
+                        
+                        h5(strong("Select Structural Indicators (up to 6)")),
                       # Title of indicator selections
                          fluidRow(
                            column(4,
@@ -378,7 +384,7 @@ fluidPage(
                           ),
           
           
-         tabPanel("STEP 4: Aspirational Comparators",
+         tabPanel("Question B: Aspirational Comparators",
              
              #  h3("Find Aspiratio Comparators", style="color:#002244"),
     #         h3(textOutput("country.txt"), style="color:#009FDA"),
@@ -531,7 +537,7 @@ fluidPage(
              
                  ),
       
-        tabPanel("STEP 5: Finalize CEM Input",
+        tabPanel("Generate CEM Data",
                  
                  h5(strong("INSTRUCTION")),
                  #   p("Structural comparators are defined as countries that are similar to the target country in terms of selected indicators."),
