@@ -5,9 +5,9 @@ account: jgao2
 server: w0lxpjekins05.worldbank.org
 hostUrl: http://w0lxpjekins05.worldbank.org:3939/__api__
 appId: 372
-bundleId: 1732
+bundleId: 1735
 url: http://w0lxpjekins05.worldbank.org:3939/content/372/
-when: 1567794841.61249
+when: 1567804616.78543
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: typologylista.csv
